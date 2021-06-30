@@ -1,0 +1,19 @@
+extends templates/main
+
+block variables
+
+    - var currentPageLink = 'home.html'
+    - var title = 'Моя работа 3'
+    - var descr = 'Читай'
+
+block content 
+
+ .list__job
+   .list__job-descr
+     h2 Коротко о проекте
+     p.p Цель: 
+   .list__job-block
+     img(src="img/home1.png", alt="")
+     a.link(href="works/home21/build/index.html", target="_blank") Open page
+
+ include blocks/footer

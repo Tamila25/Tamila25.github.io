@@ -1,0 +1,21 @@
+.job {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+   
+
+    &-img {
+        width: 250px;
+        height: 250px;
+        border-radius: 20%;
+        margin-right: 30px;
+        margin-left: 30px;
+        margin-top: 40%;
+        border: 1px solid gray;
+    }
+
+  
+}

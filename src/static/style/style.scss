@@ -1,0 +1,36 @@
+
+* {
+    box-sizing: border-box;
+}
+body {
+    
+    margin: 0 auto;
+    font-family: 'Yellowtail', cursive;
+   
+    font-family: 'Josefin Sans', sans-serif;
+}
+    .container {
+            max-width: 100%;
+            margin: 0 auto;
+            padding: 10px 10px;
+        }
+
+        .bio-text {
+            font-weight: 600;
+            line-height: 25px;
+            color: rgb(43, 133, 133);
+            margin-top: 0;
+            margin-bottom: 16px;
+        }
+
+
+
+
+
+
+
+
+
+@import './blocks.scss';
+@import './utilits.scss';
+@import './media.scss';

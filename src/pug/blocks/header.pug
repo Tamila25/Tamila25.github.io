@@ -1,0 +1,19 @@
+header.header 
+   
+  .container 
+     strong.logo MY-PORTFOLIO
+     nav(id="menu").header__nav
+       a.mobile-nav_close(href="#close") «
+       -
+         var menu = [
+           { name: 'HOME', link: 'index.html' },
+           { name: 'ABOUT ME', link: 'about.html' },
+           { name: 'MY WORKS', link: 'job.html' },
+           { name: 'CONTACT', link: 'contact.html' },
+         ]
+
+       ul 
+         each item in menu 
+           li 
+             a(href=item.link)=item.name       
+     a.mobile-nav_open(href="#menu") ☰
