@@ -3,6 +3,7 @@
 }
 
 body {
+  overflow-x: hidden;
   margin: 0 auto;
   font-family: "Yellowtail", cursive;
   font-family: "Josefin Sans", sans-serif;
@@ -173,7 +174,6 @@ body {
   }
 
   .main__text {
-    display: flex;
-    flex-wrap: wrap;
+    margin: 10px;
   }
 }
