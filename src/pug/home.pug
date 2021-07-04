@@ -8,12 +8,12 @@ block variables
 
 block content 
 
- .list__job
-   .list__job-descr
-     h2 Коротко о проекте
-     p.p Цель: 
-   .list__job-block
-     img(src="img/home1.png", alt="")
-     a.link(href="works/home21/build/index.html", target="_blank") Open page
-
- include blocks/footer
+  .list__job
+     img.list__job-img(src="img/home1.png", alt="")
+     .list__job-descr 
+       h2.h2 Коротко о проекте
+       h3.h3 Цель:  Научиться верстать многостраничный сайт при помощи сборщика Gulp
+       h4.h4 Технологии:
+        ul 
+         li GULP, SASS, PUG
+        a.link(href="works/home21/build/index.html", target="_blank") Open page

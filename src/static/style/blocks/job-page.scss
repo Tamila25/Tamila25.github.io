@@ -1,0 +1,43 @@
+.list__job {
+    overflow: hidden;
+    background: rgb(228, 174, 154);
+    min-height: calc(100vh - 100px - 130px);
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+
+    
+
+    &-img {
+        margin-right: 10%;
+        object-fit: contain;
+        max-width: 40%;
+          
+
+   
+
+       
+    }
+    
+    &-descr {
+        max-width: 400px;
+        margin-left: 10%;
+
+        .descr-text {
+            font-size: 20px;
+        }
+
+        ul {
+            padding: 0;
+
+            
+        }
+
+        
+    }
+   
+    
+
+
+}

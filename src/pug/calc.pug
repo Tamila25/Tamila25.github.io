@@ -1,0 +1,24 @@
+extends templates/main
+
+block variables
+
+    - var currentPageLink = 'calc.html'
+    - var title = 'Моя работа 6'
+    - var descr = 'Читай'
+
+block content 
+    .list__job
+        img.list__job-img(src="img/calc2.png" alt="")
+        .list__job-descr 
+            h2.h2 Коротко о проекте
+            h3.h3 Цель:  Научиться реализовывать Калькулятор
+            p.descr-text 
+
+            h4.h4 Технологии:
+                ul 
+                    li HTML5, CSS3;
+                    li JAVASCRIPT;
+            h4.h4 Средствами Javascript были реализованы: Калькулятор        
+                br
+                br
+                a.link(href="works/visual_calc/build/index.html" target="_blank") Open page

@@ -6,5 +6,19 @@ block variables
     - var title = 'Контакты'
     - var descr = 'Свяжитесь со мной'
 
-block content  
- include blocks/footer
+block content 
+ .contact 
+   h2.h2 Контактная информация
+   ul 
+    li 
+      img.contact__img(src="img/whatsapp-48.png", alt="")
+      a.contact__link(href="https://wa.me/+996508202018") WhatsApp 
+    li 
+     img.contact__img(src="img/instagram.svg", alt="")
+     a.contact__link(href="https://instagram.com/_tami_frontend_?utm_medium=copy_link") Instagram
+    li 
+      img.contact__img(src="img/telegram.png", alt="")
+      a.contact__link(href="http://t.me/tamilafront") Telegram
+    li   
+      img.contact__img(src="img/contact.png", alt="")
+      a.contact__link(href="tel:+996508202018") Phone number

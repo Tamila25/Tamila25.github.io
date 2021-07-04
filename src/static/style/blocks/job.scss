@@ -1,10 +1,11 @@
 .job {
+    background: #e4ae9a;
+    min-height: calc(100vh - 100px - 130px);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
-    margin-top: 10%;
-    margin-bottom: 10%;
+    
    
 
     &-img {

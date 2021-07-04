@@ -1,14 +1,14 @@
 .main {
+    min-height: calc(100vh - 100px - 20vh);
     text-align: center;
     max-width: 100%;
-    height: 100vh;
+    
     background: rgb(228, 174, 154);
 
     &__text {
         font-size: 100px;
         font-family: 'Yellowtail', cursive;
         margin-top: 15%;
-        
         
     }
 }

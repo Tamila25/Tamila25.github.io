@@ -6,9 +6,47 @@ block variables
     - var title = 'Обо мне'
     - var descr = 'Читай'
 
-block content    
-    p.bio-text My name is Tamila. I am 27 years old and am currently studying to be a Front-End developer and developing in this area. I want to continue my journey in this direction. I love to learn something new &#128526  Goal: start a career as a junior html layout designer in an excellent company and grow to a Senior developer.
+block content 
+ .bio_top 
+  .container
+   main.bio 
+    img.bio__avatar(src="", alt="")
+    p.bio__text My name is Tamila. I am 27 years old and am currently studying to be a Front-End developer and developing in this area. I want to continue my journey in this direction. I love to learn something new &#128526 
+    p My Goal: start a career as a junior html layout designer in an excellent company and grow to a Senior developer.
+
+    section.top 
+     h2.h2 My skills 
+     .top__item
+      
+      .top__item-block
+        h3.top__title  HTML5/CSS3
+        ul 
+         li Valid, cross-browser code
+         li Semantic layout
+         li Structured code
+         li PixelPerfect
+         li BEM methodology
+      .top__item-block
+        h3.top__title  Javascript/JQuery
+        ul 
+         li Native javascript
+         li jQuery plugins
+         li Commented code
+      .top__item-block
+        h3.top__title  Gulp/Pug
+        ul 
+         li Rapid deployment of the project
+         li Using template engines
+        
+      .top__item-block
+        h3.top__title  Less/Sass
+        ul 
+         li Accelerated website styling
+         li More flexible code
+         li Nesting selectors 
+       
 
 
 
-    include blocks/footer  
+
+     

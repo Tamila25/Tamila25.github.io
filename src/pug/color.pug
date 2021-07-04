@@ -7,12 +7,15 @@ block variables
     - var descr = 'Читай'
 
 block content 
- .list__job
-   .list__job-descr
-     h2 Коротко о проекте
-     p.p Цель: 
-   .list__job-block
-     img(src="img/color-dance.png", alt="")
-     a.link(href="works/color_dance/index.html", target="_blank") Open page
+  .list__job
+     img.list__job-img(src="img/color-dance.png", alt="")
+     .list__job-descr 
+       h2.h2 Коротко о проекте
+       h3.h3 Цель:  Научиться делать интересные штучки при помощи JS
+       p.descr-text 
+       h4.h4 Технологии:
+        ul 
+         li HTML5, CSS3;
+         li JAVASCRIPT;
+        a.link(href="works/color_dance/index.html", target="_blank") Open page
 
- include blocks/footer
