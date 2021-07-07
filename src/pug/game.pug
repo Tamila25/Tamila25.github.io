@@ -1,0 +1,20 @@
+extends templates/main
+
+block variables
+
+  - var currentPageLink = 'home.html'
+  - var title = 'Моя работа 3'
+  - var descr = 'Читай'
+
+block content 
+
+  .list__job
+    img.list__job-img(src="img/game.png" alt="")
+    .list__job-descr 
+      h2.h2 About the project
+      h3.h3 Objective: is the development of a popular entertaining game of tic-tac-toe. The program provides an opportunity to play with a computer that plays according to the created algorithm.
+      h4.h4 Technologies:
+        ul 
+         li HTML5, CSS3 
+         li JAVASCRIPT
+        a.link(href="works/x_o/index.html" target="_blank") Open page

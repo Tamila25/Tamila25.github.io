@@ -1,6 +1,6 @@
 .list__job {
     overflow: hidden;
-    background: rgb(228, 174, 154);
+    background: rgb(253, 161, 128);
     min-height: calc(100vh - 100px - 130px);
     display: flex;
     justify-content: center;
@@ -22,7 +22,7 @@
     
     &-descr {
         max-width: 400px;
-        margin-left: 10%;
+        margin-left: 15%;
 
         .descr-text {
             font-size: 20px;
@@ -30,6 +30,10 @@
 
         ul {
             padding: 0;
+
+            li {
+                list-style: none;
+            }
 
             
         }

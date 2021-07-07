@@ -8,11 +8,14 @@
     text-decoration: none;
     font-size: 20px;
     color: rgb(168, 32, 78) ;
+    padding: 10px 20px;
+    border-radius: 10px;
+   
 
     &:hover {
-        background: rgb(128, 122, 122);
-        padding: 16px 20px;
-        border-radius: 10px;
+        background: rgb(95, 93, 92);
+        color: cornsilk;
+       
     }
 }
 .h2 {

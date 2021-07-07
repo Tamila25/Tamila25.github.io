@@ -1,5 +1,5 @@
 .bio_top > .container {
-    background: #e4ae9a;
+    background: rgb(253, 161, 128);
 }
 
 .bio {
@@ -16,11 +16,13 @@
 .top {
    &__item {
   display: flex;
+  flex-wrap: wrap;
   justify-content:  space-around;
   margin-top: 20px;
 
 
   &-block {
+     margin-bottom: 20px;
      background: rgb(54, 49, 49);
      width: 320px;
      padding: 20px;
