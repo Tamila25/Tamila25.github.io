@@ -18,7 +18,7 @@ body {
   justify-content: space-between;
   align-items: center;
   height: 100px;
-  background: rgba(241, 107, 107, 0.74);
+  background: #e36bae;
 }
 .header__nav > ul {
   display: flex;
@@ -35,7 +35,7 @@ body {
   padding: 10px 10px;
 }
 .header__nav ul a:hover {
-  background: #5f5d5c;
+  background: #822659;
   color: cornsilk;
 }
 
@@ -55,21 +55,20 @@ body {
 }
 
 .footer {
-  background: rgba(231, 85, 85, 0.74);
-  height: 20vh;
-  padding: 20px;
+  background: #b34180;
+  padding: 30px;
 }
 .footer__text {
   font-size: 30px;
   padding: 50px;
-  margin-top: 0;
+  margin: 0;
 }
 
 .main {
   min-height: calc(100vh - 100px - 20vh);
   text-align: center;
   max-width: 100%;
-  background: #fda180;
+  background: #f8a1d1;
 }
 .main__text {
   font-size: 100px;
@@ -78,7 +77,7 @@ body {
 }
 
 .bio_top > .container {
-  background: #fda180;
+  background: #f8a1d1;
 }
 
 .bio {
@@ -107,7 +106,7 @@ body {
 }
 
 .job {
-  background: #fda180;
+  background: #f8a1d1;
   min-height: calc(100vh - 100px - 130px);
   display: flex;
   flex-wrap: wrap;
@@ -129,7 +128,7 @@ body {
 
 .list__job {
   overflow: hidden;
-  background: #fda180;
+  background: #f8a1d1;
   min-height: calc(100vh - 100px - 130px);
   display: flex;
   justify-content: center;
@@ -157,7 +156,7 @@ body {
 
 .contact {
   min-height: calc(100vh - 100px - 130px);
-  background: #fda180;
+  background: #f8a1d1;
   overflow: hidden;
 }
 .contact ul {
@@ -188,7 +187,7 @@ body {
   border-radius: 10px;
 }
 .link:hover {
-  background: #5f5d5c;
+  background: #822659;
   color: cornsilk;
 }
 
@@ -252,8 +251,8 @@ body {
   }
 
   .main__text {
-    margin-top: 80px;
-    font-size: 40px;
+    margin-top: 30%;
+    font-size: 60px;
   }
 
   .top__item {
@@ -273,9 +272,6 @@ body {
     margin-left: 50px;
   }
 
-  .footer {
-    height: 20vh;
-  }
   .footer__text {
     padding: 30px;
   }

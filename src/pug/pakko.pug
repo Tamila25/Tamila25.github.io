@@ -1,0 +1,23 @@
+extends templates/main
+
+block variables
+
+    - var currentPageLink = 'pakko.html'
+    - var title = 'Моя работа 9'
+    - var descr = 'Читай'
+
+block content 
+
+ .list__job
+   img.list__job-img(src="img/pakko.png", alt="")
+   .list__job-descr 
+     h2.h2 About the project
+     h3.h3 Objective: To learn how to work with Animations css, Create an animated website, create a burger menu using JS
+     h4.h4 Technologies:
+      ul 
+       li HTML, SASS
+       li JAVASCRIPT;
+     h4.h4 BY MEANS OF JAVASCRIPT WERE IMPLEMENTED: Animation, Parallax effect - it can liven up illustrations and text and add depth to your site without the need for complex design finesse.
+    
+     a.link(href="works/Pakko/index.html", target="_blank") Open page
+

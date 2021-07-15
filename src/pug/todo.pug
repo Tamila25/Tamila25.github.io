@@ -1,0 +1,23 @@
+extends templates/main
+
+block variables
+
+    - var currentPageLink = 'todo.html'
+    - var title = 'Моя работа 8'
+    - var descr = 'Читай'
+
+block content 
+
+ .list__job
+   img.list__job-img(src="img/todo.png", alt="")
+   .list__job-descr 
+     h2.h2 About the project
+     h3.h3 Objective: This application will perform the following functions: 1)Display your current tasks; 2)Allow adding new tasks through the input field; 3)Delete tasks.   
+     h4.h4 Technologies:
+      ul 
+       li HTML, SASS
+       li REACT.JS;
+     h4.h4 BY MEANS OF REACT.JS WERE IMPLEMENTED: adding tasks, deleting them and sorting 
+    
+     a.link(href="works/react_todo/public/index.html", target="_blank") Open page
+
